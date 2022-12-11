@@ -13,7 +13,41 @@
 		5C3CB6D529459A2800DAE1FE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C3CB6D429459A2800DAE1FE /* Preview Assets.xcassets */; };
 		5C3CB6DE29459D3200DAE1FE /* AppLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3CB6DD29459D3200DAE1FE /* AppLink.swift */; };
 		5C3CB6E129459F8100DAE1FE /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3CB6E029459F8100DAE1FE /* Home.swift */; };
+		5C3CB6E92945AA2500DAE1FE /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C3CB6E82945AA2500DAE1FE /* WidgetKit.framework */; };
+		5C3CB6EB2945AA2500DAE1FE /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C3CB6EA2945AA2500DAE1FE /* SwiftUI.framework */; };
+		5C3CB6EE2945AA2500DAE1FE /* DockBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3CB6ED2945AA2500DAE1FE /* DockBundle.swift */; };
+		5C3CB6F02945AA2600DAE1FE /* DockLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3CB6EF2945AA2600DAE1FE /* DockLiveActivity.swift */; };
+		5C3CB6F22945AA2600DAE1FE /* Dock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3CB6F12945AA2600DAE1FE /* Dock.swift */; };
+		5C3CB6F42945AA2800DAE1FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C3CB6F32945AA2800DAE1FE /* Assets.xcassets */; };
+		5C3CB6F82945AA2800DAE1FE /* DockExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 5C3CB6E62945AA2500DAE1FE /* DockExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5C3CB6FE2945AA7200DAE1FE /* DockAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3CB6FD2945AA7200DAE1FE /* DockAttributes.swift */; };
+		5C3CB6FF2945AAF400DAE1FE /* DockAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3CB6FD2945AA7200DAE1FE /* DockAttributes.swift */; };
+		5C3CB7002945AB0E00DAE1FE /* AppLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3CB6DD29459D3200DAE1FE /* AppLink.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5C3CB6F62945AA2800DAE1FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C3CB6C229459A2000DAE1FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C3CB6E52945AA2500DAE1FE;
+			remoteInfo = DockExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5C3CB6F92945AA2800DAE1FE /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5C3CB6F82945AA2800DAE1FE /* DockExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		5C3CB6CA29459A2300DAE1FE /* Lockscreen Dock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lockscreen Dock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,6 +58,15 @@
 		5C3CB6DD29459D3200DAE1FE /* AppLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLink.swift; sourceTree = "<group>"; };
 		5C3CB6DF29459ED300DAE1FE /* Lockscreen-Dock-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Lockscreen-Dock-Info.plist"; sourceTree = SOURCE_ROOT; };
 		5C3CB6E029459F8100DAE1FE /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		5C3CB6E62945AA2500DAE1FE /* DockExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DockExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C3CB6E82945AA2500DAE1FE /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		5C3CB6EA2945AA2500DAE1FE /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		5C3CB6ED2945AA2500DAE1FE /* DockBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DockBundle.swift; sourceTree = "<group>"; };
+		5C3CB6EF2945AA2600DAE1FE /* DockLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DockLiveActivity.swift; sourceTree = "<group>"; };
+		5C3CB6F12945AA2600DAE1FE /* Dock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dock.swift; sourceTree = "<group>"; };
+		5C3CB6F32945AA2800DAE1FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C3CB6F52945AA2800DAE1FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C3CB6FD2945AA7200DAE1FE /* DockAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DockAttributes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +77,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5C3CB6E32945AA2500DAE1FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C3CB6EB2945AA2500DAE1FE /* SwiftUI.framework in Frameworks */,
+				5C3CB6E92945AA2500DAE1FE /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -41,6 +93,8 @@
 			isa = PBXGroup;
 			children = (
 				5C3CB6CC29459A2300DAE1FE /* Lockscreen Dock */,
+				5C3CB6EC2945AA2500DAE1FE /* Dock */,
+				5C3CB6E72945AA2500DAE1FE /* Frameworks */,
 				5C3CB6CB29459A2300DAE1FE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				5C3CB6CA29459A2300DAE1FE /* Lockscreen Dock.app */,
+				5C3CB6E62945AA2500DAE1FE /* DockExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				5C3CB6DD29459D3200DAE1FE /* AppLink.swift */,
+				5C3CB6FD2945AA7200DAE1FE /* DockAttributes.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -91,6 +147,27 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		5C3CB6E72945AA2500DAE1FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C3CB6E82945AA2500DAE1FE /* WidgetKit.framework */,
+				5C3CB6EA2945AA2500DAE1FE /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5C3CB6EC2945AA2500DAE1FE /* Dock */ = {
+			isa = PBXGroup;
+			children = (
+				5C3CB6ED2945AA2500DAE1FE /* DockBundle.swift */,
+				5C3CB6EF2945AA2600DAE1FE /* DockLiveActivity.swift */,
+				5C3CB6F12945AA2600DAE1FE /* Dock.swift */,
+				5C3CB6F32945AA2800DAE1FE /* Assets.xcassets */,
+				5C3CB6F52945AA2800DAE1FE /* Info.plist */,
+			);
+			path = Dock;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -101,15 +178,34 @@
 				5C3CB6C629459A2200DAE1FE /* Sources */,
 				5C3CB6C729459A2200DAE1FE /* Frameworks */,
 				5C3CB6C829459A2200DAE1FE /* Resources */,
+				5C3CB6F92945AA2800DAE1FE /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				5C3CB6F72945AA2800DAE1FE /* PBXTargetDependency */,
 			);
 			name = "Lockscreen Dock";
 			productName = "Lockscreen Dock";
 			productReference = 5C3CB6CA29459A2300DAE1FE /* Lockscreen Dock.app */;
 			productType = "com.apple.product-type.application";
+		};
+		5C3CB6E52945AA2500DAE1FE /* DockExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C3CB6FC2945AA2800DAE1FE /* Build configuration list for PBXNativeTarget "DockExtension" */;
+			buildPhases = (
+				5C3CB6E22945AA2500DAE1FE /* Sources */,
+				5C3CB6E32945AA2500DAE1FE /* Frameworks */,
+				5C3CB6E42945AA2500DAE1FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DockExtension;
+			productName = DockExtension;
+			productReference = 5C3CB6E62945AA2500DAE1FE /* DockExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -122,6 +218,9 @@
 				LastUpgradeCheck = 1410;
 				TargetAttributes = {
 					5C3CB6C929459A2200DAE1FE = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					5C3CB6E52945AA2500DAE1FE = {
 						CreatedOnToolsVersion = 14.1;
 					};
 				};
@@ -140,6 +239,7 @@
 			projectRoot = "";
 			targets = (
 				5C3CB6C929459A2200DAE1FE /* Lockscreen Dock */,
+				5C3CB6E52945AA2500DAE1FE /* DockExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -154,6 +254,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5C3CB6E42945AA2500DAE1FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C3CB6F42945AA2800DAE1FE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -163,12 +271,33 @@
 			files = (
 				5C3CB6DE29459D3200DAE1FE /* AppLink.swift in Sources */,
 				5C3CB6D029459A2400DAE1FE /* ContentView.swift in Sources */,
+				5C3CB6FE2945AA7200DAE1FE /* DockAttributes.swift in Sources */,
 				5C3CB6E129459F8100DAE1FE /* Home.swift in Sources */,
 				5C3CB6CE29459A2400DAE1FE /* Lockscreen_DockApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5C3CB6E22945AA2500DAE1FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C3CB7002945AB0E00DAE1FE /* AppLink.swift in Sources */,
+				5C3CB6EE2945AA2500DAE1FE /* DockBundle.swift in Sources */,
+				5C3CB6F22945AA2600DAE1FE /* Dock.swift in Sources */,
+				5C3CB6F02945AA2600DAE1FE /* DockLiveActivity.swift in Sources */,
+				5C3CB6FF2945AAF400DAE1FE /* DockAttributes.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5C3CB6F72945AA2800DAE1FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C3CB6E52945AA2500DAE1FE /* DockExtension */;
+			targetProxy = 5C3CB6F62945AA2800DAE1FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		5C3CB6D629459A2800DAE1FE /* Debug */ = {
@@ -288,6 +417,7 @@
 		5C3CB6D929459A2800DAE1FE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,6 +427,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Lockscreen-Dock-Info.plist";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -318,6 +449,7 @@
 		5C3CB6DA29459A2800DAE1FE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -327,6 +459,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Lockscreen-Dock-Info.plist";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -339,6 +472,60 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "app.vercel.samprincefranklin.Lockscreen-Dock";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5C3CB6FA2945AA2800DAE1FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LK3GS7Y8Z9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Dock/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Dock;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.vercel.samprincefranklin.Lockscreen-Dock.Dock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5C3CB6FB2945AA2800DAE1FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LK3GS7Y8Z9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Dock/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Dock;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.vercel.samprincefranklin.Lockscreen-Dock.Dock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -362,6 +549,15 @@
 			buildConfigurations = (
 				5C3CB6D929459A2800DAE1FE /* Debug */,
 				5C3CB6DA29459A2800DAE1FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C3CB6FC2945AA2800DAE1FE /* Build configuration list for PBXNativeTarget "DockExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C3CB6FA2945AA2800DAE1FE /* Debug */,
+				5C3CB6FB2945AA2800DAE1FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

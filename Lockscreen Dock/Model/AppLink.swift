@@ -28,5 +28,6 @@ var appLinks: [Applink] = [
     .init(name: "Google", deepLink: "https://www.google.com"),
     .init(name: "Google Maps", deepLink: "comgooglemaps://"),
     .init(name: "YouTube", deepLink: "youtube://"),
-    .init(name: "Google Translate", deepLink: "googleTranslate://")
+    .init(name: "Google Translate", deepLink: "googleTranslate://"),
+    .init(name: "Shortcuts", deepLink: "shortcuts://")
 ]
