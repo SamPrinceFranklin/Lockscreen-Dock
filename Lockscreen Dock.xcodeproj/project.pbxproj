@@ -11,6 +11,8 @@
 		5C3CB6D029459A2400DAE1FE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3CB6CF29459A2400DAE1FE /* ContentView.swift */; };
 		5C3CB6D229459A2600DAE1FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C3CB6D129459A2600DAE1FE /* Assets.xcassets */; };
 		5C3CB6D529459A2800DAE1FE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C3CB6D429459A2800DAE1FE /* Preview Assets.xcassets */; };
+		5C3CB6DE29459D3200DAE1FE /* AppLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3CB6DD29459D3200DAE1FE /* AppLink.swift */; };
+		5C3CB6E129459F8100DAE1FE /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3CB6E029459F8100DAE1FE /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,9 @@
 		5C3CB6CF29459A2400DAE1FE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5C3CB6D129459A2600DAE1FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C3CB6D429459A2800DAE1FE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5C3CB6DD29459D3200DAE1FE /* AppLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLink.swift; sourceTree = "<group>"; };
+		5C3CB6DF29459ED300DAE1FE /* Lockscreen-Dock-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Lockscreen-Dock-Info.plist"; sourceTree = SOURCE_ROOT; };
+		5C3CB6E029459F8100DAE1FE /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +56,9 @@
 		5C3CB6CC29459A2300DAE1FE /* Lockscreen Dock */ = {
 			isa = PBXGroup;
 			children = (
+				5C3CB6DF29459ED300DAE1FE /* Lockscreen-Dock-Info.plist */,
+				5C3CB6DC29459D1B00DAE1FE /* View */,
+				5C3CB6DB29459D0C00DAE1FE /* Model */,
 				5C3CB6CD29459A2400DAE1FE /* Lockscreen_DockApp.swift */,
 				5C3CB6CF29459A2400DAE1FE /* ContentView.swift */,
 				5C3CB6D129459A2600DAE1FE /* Assets.xcassets */,
@@ -65,6 +73,22 @@
 				5C3CB6D429459A2800DAE1FE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5C3CB6DB29459D0C00DAE1FE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5C3CB6DD29459D3200DAE1FE /* AppLink.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5C3CB6DC29459D1B00DAE1FE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5C3CB6E029459F8100DAE1FE /* Home.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +161,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C3CB6DE29459D3200DAE1FE /* AppLink.swift in Sources */,
 				5C3CB6D029459A2400DAE1FE /* ContentView.swift in Sources */,
+				5C3CB6E129459F8100DAE1FE /* Home.swift in Sources */,
 				5C3CB6CE29459A2400DAE1FE /* Lockscreen_DockApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +296,7 @@
 				DEVELOPMENT_TEAM = LK3GS7Y8Z9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Lockscreen-Dock-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +326,7 @@
 				DEVELOPMENT_TEAM = LK3GS7Y8Z9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Lockscreen-Dock-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
